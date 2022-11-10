@@ -1,0 +1,25 @@
+.header{
+    background: $green;
+    box-shadow: 0px 5.69882px 9.49804px rgba(19, 40, 29, 0.098);
+    &-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-buttom{
+        display: flex;
+    }
+    &-btn{
+        margin-left: 35px;
+    }
+}
+.navigation{
+    &-items{
+        display: flex;
+    }
+    &-item{
+        &:not(:last-child){
+            margin-right: 45px;
+        }
+    }
+}

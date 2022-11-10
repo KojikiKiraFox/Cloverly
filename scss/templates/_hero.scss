@@ -1,0 +1,16 @@
+.hero {
+    background: $green;
+
+    &-item {
+        &-left {
+            max-width: 550px;
+        }
+
+        &-uptitle {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.25);
+            padding: 9px 15px;
+            border-radius: 50px;
+        }
+    }
+}

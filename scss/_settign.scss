@@ -1,0 +1,123 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+ul,
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+
+.container {
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section{
+    padding: 20px 0;
+    &-title{
+        text-align: center;
+        position: relative;
+        font-size: 25px;
+        // &::after{
+        //     content: '';
+        //     position: absolute;
+        //     width: 10px;
+        //     height: 10px;
+        //     border-radius:50%;
+        //     background: #000;
+        //     top: 30%;
+        //     left: 38%;
+        // }
+        // &::before{
+        //     content: '';
+        //     position: absolute;
+        //     width: 10px;
+        //     height: 10px;
+        //     border-radius:50%;
+        //     background: #000;
+        //     top: 30%;
+        //     right: 38%;
+        // }
+    }
+}
+
+.uptitle{
+    font-size: 18px;
+    line-height: 24px;
+    color: #00CA90;
+}
+
+.img{
+    &-logo{
+        max-width: 80px;
+        margin-left: 10px;
+    }
+}
+
+.logo{
+    &-link{
+        color: #fff;
+    }
+    &-text{
+        font-size: 18px;
+        margin-top: -10px;
+        
+    }
+}
+
+.btn{
+    padding: 10px 35px;
+    cursor: pointer;
+    border-radius: 50px;
+    &-white{
+        background: #fff;
+        color:#000;
+    }
+    &-dark{
+        background: #192F44;
+        color: #fff;
+    }
+    &-green{
+        color: #fff;
+        background: #00CA90;
+    }
+}
+
+input{
+    font-family: inherit; 
+    font-size: inherit; 
+    line-height: inherit; 
+    margin: 0; 
+    border:none;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    &:focus{
+        background-color: #fff;
+        border-color: #bdbdbd;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+    }
+}
+
+input[type="submit"]{
+    padding: 10px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid #000;
+    transition: .3s;
+
+}
